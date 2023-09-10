@@ -123,6 +123,42 @@
 .peras{
     padding: 0px 65spx;
 }
+.sectionTag{
+    padding: 16px 0;
+}
 .sectionSubTag{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.thumbnail img{
+    width: 250px;
+    border: 2px solid black;
+    border-radius: 26px;
+    margin-top: 10px;
+
+}
+.contact{
+   height: 34vh;
+    background-color: orange;
+
     
 }
+.contact{
+    
+}
+.text-center{
+    text-align: center;
+}
+.form{
+    max-width: 500px;
+    margin: 42px auto;
+}
+.form input{
+    margin: 3px 0;
+    width: 100%;
+    padding: 5px 3px;
+    font-size: 19px;
+    border:2px solid grey ;
+    border-radius: 6px;
+}
+
+
