@@ -7,17 +7,22 @@
     <title>iEducate - Transforming Online Education</title>
 </head>
 <body>
-    <nav class="navbar background">
-        <ul class="nav-list">
+    <nav class="navbar background h-nav-resp">
+        <ul class="nav-list v-class-resp">
             <div class="logo"><img src="image/logo.jfif" alt="logo"></div>
             <li><a href="#home">Home</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#services">Services</a></li>
             <li><a href="#contact">Contact Us</a></li>
         </ul>
-        <div class="rightNav">
+        <div class="rightNav v-class-resp">
             <input type="text" name="search" id="search">
             <button class="btn btn-sm">Search</button>
+        </div>
+        <div class="burger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
         </div>
     </nav>
 
@@ -80,11 +85,19 @@
     <section class="contact">
         <h2 class="text-center">Contact us</h2>
         <div class="form">
-            <input type="text" name="name" id="name" placeholder="Enter :Your name">
-            <input type="text" name="number" id="phone" placeholder="Enter :Your Phone">
-            <input type="text" name="email" id="email" placeholder="Enter :Your email">
+            <input class="form-input" type="text" name="name" id="name" placeholder="Enter :Your name">
+            <input class="form-input" type="text" name="number" id="phone" placeholder="Enter :Your Phone">
+            <input class="form-input" type="text" name="email" id="email" placeholder="Enter :Your email">
+            <textarea class="form-input" name="text" id="text" cols="30" rows="10" placeholder="Ellaborate your concern"></textarea>
+            <button class="btn btn-sm btn-dark">Submit</button>
         </div>
     </section>
+
+    <footer class="background">
+        <p class="text-footer">
+            Copyright &copy;2027iEducate.com-All rights reserved
+        </p>
+    </footer>
     
     <script src="Script.js"></script>
 </body>
